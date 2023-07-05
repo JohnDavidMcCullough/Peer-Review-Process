@@ -1,0 +1,58 @@
+<div><label id="lMarket" for="market">Market</label>
+  <select [(ngModel)]="chosenMarket" (ngModelChange)="showRestAll()" id="market"  >
+    <option>AL</option><option>AZ</option><option>CC</option><option>CF</option><option>CO</option><option>CT</option>
+    <option>EC</option><option>EF</option><option>EP</option><option>ET</option><option>GC</option><option>IL</option>
+    <option>IN</option><option>KC</option><option>KX</option><option>KY</option><option>MD</option><option>MT</option>
+    <option>NC</option><option>NE</option><option>NG</option><option>NT</option><option>NV</option><option>NY</option>
+    <option>OK</option><option>OR</option><option>SF</option><option>SG</option><option>ST</option><option>TS</option>
+    <option>UN</option><option>VA</option><option>WA</option><option>WI</option><option>WP</option>
+
+  </select>
+  <div>
+    <button id="searchButton" (click)="showRestAll()" *ngIf="!marketSelect">Search</button>
+  </div>
+  <dialog open class="modal" id="modal" *ngIf="popUp">
+    You need to enter information into every box to submit.
+<div>
+    <button id="modalButton" (click)="submit()">close</button>
+  </div>
+  </dialog>
+</div>
+<div *ngIf="marketSelect">
+<div id="testID">
+  <label id="lDealerCode" for="dealerCode">Dealer Code</label>
+  <div id="dealerCode">
+  &nbsp; {{dealerCode}}
+  </div>
+</div>
+<div>
+  <label id="lUserName" for="userName">Username</label>
+  <input id="userName" type="text" [(ngModel)] = "userName" >
+</div>
+<div>
+  <label id="lDisplayName" for="displayName">Display Name</label>
+  <input id="displayName" type="text" [(ngModel)] = "displayName">
+</div>
+<div>
+  <label id="lAssignedByUser" for="assignedByUser">Assigned By User</label>
+  <input id="assignedByUser" type="text" [(ngModel)] = "assignedByUser" >
+</div>
+<div id="testID">
+  <label id="lAssignedFrom" for="assignedFrom">Assigned From</label>
+  <div id="assignedFrom">
+    &nbsp; Dealer Code Manager
+  </div>
+</div>
+<div id="container">
+  <label id="lDateAssigned" for="dateAssigned">Date Assigned</label>
+  <div id="dateAssigned">
+  &nbsp; {{dateAssigned}}
+  </div>
+</div>
+
+<div>
+  <input id="submit" type="submit" value="Submit" (click) = "submit()">
+</div>
+</div>
+
+<router-outlet></router-outlet>
