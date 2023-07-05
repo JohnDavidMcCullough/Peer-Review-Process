@@ -1,0 +1,218 @@
+.modal
+{
+    background-color: lightgray;
+    background: .2;
+    vertical-align: middle;
+    max-width: 200px;
+    font-size: 20px;
+  
+}
+#modalButton
+{
+    margin-top: 5px;
+    width: 75px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    
+    border-color: black;
+}
+
+#searchButton
+{
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    border-color: blue;
+}
+
+#container
+{
+    display: flex;
+    
+    align-items: center;
+}
+
+#lMarket
+{
+    color: white;
+    background-color: rgb(100, 100, 100);
+    padding-left: 49px;
+    padding-right: 48px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px
+}
+
+#lDealerCode
+{
+    margin-bottom: 5px;
+    color: white;
+    background-color: rgb(100, 100, 100);
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px; 
+    display:inline-block
+}
+
+#lUserName
+{
+    color: white;
+    background-color: rgb(100, 100, 100);
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#lDisplayName
+{
+    color: white;
+    background-color: rgb(100, 100, 100);
+    padding-left: 27px;
+    padding-right: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px
+}
+
+#lAssignedFrom
+
+{
+    margin-bottom: 5px;
+    color: white;
+    background-color: rgb(100, 100, 100);
+    padding-left: 24px;
+    padding-right: 23px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px; 
+    display:inline-block
+}
+
+#lDateAssigned
+
+{
+    
+    margin-bottom: 5px;
+    color: white;
+    background-color: rgb(100, 100, 100);
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px; 
+    
+}
+
+#lAssignedByUser
+
+{
+    margin-bottom: 5px;
+    color: white;
+    background-color: rgb(100, 100, 100);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px; 
+    display:inline-block
+}
+
+#market
+{
+    background-color: lightgray;
+    width: 169px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 8px
+}
+
+#dealerCode
+{
+   
+    background-color: lightgray;
+    width: 169px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    display:inline-block;
+    
+}
+
+#userName
+{
+    background-color: white;
+    width: 160px;
+    height: 50px;
+    margin: 5px;
+}
+
+#displayName
+{
+    background-color: white;
+    width: 160px;
+    height: 50px;
+    margin: 5px;
+}
+
+#assignedFrom
+{
+    border-style:groove;
+    border-width: 1px;
+    background-color: lightgray;
+    width: 169px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    display:inline-block;
+    
+    
+}
+
+#dateAssigned
+{
+    font-size:100%;
+    background-color: lightgray;
+    width: 169px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    
+    
+    
+}
+
+#assignedByUser
+{
+    background-color: white;
+    width: 160px;
+    height: 50px;
+    margin: 5px;
+}
+
+#submit
+{
+   margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    border-color: blue;
+}
+
